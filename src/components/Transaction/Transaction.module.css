@@ -19,12 +19,12 @@ thead {
 }
 
 .transactions th {
-  padding: 10px;
+  padding: 30px;
   border: 1px solid #d3d5e3;
 }
 
 .transactions td {
-  padding: 10px;
+  padding: 30px;
   border: 1px solid #d3d5e3;
   text-transform: capitalize;
   font-size: 20px;

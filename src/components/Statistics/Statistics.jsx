@@ -14,7 +14,7 @@ const Statistics = ({ title, stats }) => {
     <section className={styles.statistics}>
       {title && <h2 className={styles.title}>{title}</h2>}
 
-      <ul className={styles.statlist}>
+      <ul className={styles.statList}>
         {stats.map((stat, index) => (
           <li
             key={index}
