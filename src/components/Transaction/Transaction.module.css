@@ -1,0 +1,36 @@
+.transactions {
+  background-color: #fff;
+  color: #8e8e8e;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 14px 2px rgba(0, 0, 0, 0.41);
+  overflow: hidden;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+thead {
+  color: #fff;
+  background-color: rgb(8, 185, 205);
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.transactions th {
+  padding: 10px;
+  border: 1px solid #d3d5e3;
+}
+
+.transactions td {
+  padding: 10px;
+  border: 1px solid #d3d5e3;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.transactions tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
